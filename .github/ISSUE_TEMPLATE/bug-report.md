@@ -5,6 +5,7 @@ title: [BUG] Krótki opis
 labels: bug 
 assignees: ''
 ---
+
 **Opis błędu**
 Krótko opisz na czym polega błąd
 
