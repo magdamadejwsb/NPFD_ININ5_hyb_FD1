@@ -3,7 +3,7 @@ Krótko opisz co zostało zmienione
 
 ## Typ zmian
 Zaznacz odpowiednie opcje
-- [ ]Dodanie nowej funkcji
+- []Dodanie nowej funkcji
 - [ ]Poprawka błędu
 - [ ]Zmiana w dokumentacji
 - [ ]Refaktoryzaja
