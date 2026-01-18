@@ -1,0 +1,40 @@
+.img_and_temp 
+    @include flex-container(row, center, center)
+
+    p
+        font-size: 45px
+        font-weight: bold
+    
+.description_background
+    background-color: $red-color
+    padding: 5px 10px 
+    border-radius: 15px
+    color: $first-color
+
+div.rest_weather_info
+    padding: 5px 0
+    
+    p 
+        margin-bottom: 8px
+
+        span
+            font-weight: bold
+
+section.air_pollution
+    padding: 15px 0
+
+    h3
+        padding: 5px 0
+
+    div.pm25_info
+        @include flex-container(row, flex-start, center)    
+
+        img 
+            border-radius: 50%
+            transition: 0.3s
+            margin-right: 5px
+            padding: 5px
+
+        p
+            font-weight: bold
+            margin-right: 4px    

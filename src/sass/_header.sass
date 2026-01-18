@@ -1,0 +1,35 @@
+* 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    @include flex-container (column, space-between, center) 
+    min-height: 100vh   
+    font-family: "Montserrat", sans-serif
+
+header
+    @include box($first-color, $second-color, 10px, center)
+    width: 100%
+
+    h1
+        padding: 10px 0
+
+    .search_city
+        @include flex-container (row, center, center)
+
+        input
+            padding: 10px 5px
+            border: none
+            border-radius: 8px 0 0 8px
+
+        button
+            padding: 10px 5px
+            background-color: $second-color
+            color: $first-color    
+            border: none
+            border-radius: 0 8px 8px 0
+
+    p.error_msg
+        color: darkred
+        padding: 10px 0
